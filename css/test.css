@@ -1,0 +1,39 @@
+
+.site-footer {
+		background-color:     #ff8000;
+		color: #000000;
+		margin-top: 40px;
+		padding-top: 180px;	
+}
+
+.bottom-footer {
+	border-top: 2px solid  #000000;
+	margin-top: 10px;
+	padding-top: 10px;
+	color:     #000000;
+
+}
+
+.carousel-inner img {
+    
+     /* make all photos black and white */
+    width: 50%; /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+        color: #272727;
+         /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+.navbar-default .navbar-nav li a{
+    color: black;
+}
+ 
+
